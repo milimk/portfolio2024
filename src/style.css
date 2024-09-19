@@ -1,3 +1,44 @@
+@media (max-width: 768px) {
+  .body-text .h1-text {
+    font-size: 50px;
+  }
+  .body-text .h2-text {
+    font-size: 25px;
+  }
+  .body-text .h3-text {
+    font-size: 20px;
+  }
+
+  .body-text .profile-home {
+    width: 330px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .body-text .h1-text {
+    font-size: 70px;
+  }
+  .body-text .h2-text {
+    font-size: 35px;
+  }
+  .body-text .h3-text {
+    font-size: 20px;
+  }
+
+  .body-text .profile-home {
+    width: 330px;
+  }
+
+  .body-text .designer-text {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .body-text .designer-info-box {
+    padding-bottom: 40px;
+  }
+}
+
 :root {
   --primary-color: #f59f9e;
   --secondary-color: #ffefe4;
