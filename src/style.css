@@ -1,4 +1,7 @@
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
   .body-text .h1-text {
     font-size: 50px;
   }
@@ -37,6 +40,9 @@
   .body-text .designer-info-box {
     padding-bottom: 40px;
   }
+}
+
+@media (min-width: 993px) {
 }
 
 :root {
@@ -190,6 +196,14 @@ footer a:hover {
   margin-top: -20px;
 }
 
+.designer-text-small {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 28px;
+  padding-right: 10px;
+}
+
 .dev-text {
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
@@ -199,6 +213,11 @@ footer a:hover {
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
   padding-bottom: 15px;
+}
+
+.dev-text-small {
+  font-family: "Source Code Pro", monospace;
+  font-size: 17px;
 }
 
 .detail-title {
@@ -220,19 +239,27 @@ footer a:hover {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
-.accordion-body {
-  margin-top: -20px;
-  margin-bottom: 10px;
+.navbar-work {
+  margin-top: 56px;
 }
 
-.accordion a:hover {
-  opacity: 0.5;
+.work-menu-container {
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
-.accordion p {
-  font-size: 14px;
+.work-menu-item {
+  padding-right: 7px;
+  font-size: 15px;
 }
 
-.accordion li {
-  font-size: 14px;
+.sticky-top-2 {
+  position: sticky;
+  top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.work-content {
+  scroll-padding-top: 180px;
 }
