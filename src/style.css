@@ -11,7 +11,6 @@
   .body-text .h3-text {
     font-size: 20px;
   }
-
   .body-text .profile-home {
     width: 330px;
   }
@@ -204,6 +203,13 @@ footer a:hover {
   padding-right: 10px;
 }
 
+.designer-text-work {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 53px;
+}
+
 .dev-text {
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
@@ -260,6 +266,12 @@ footer a:hover {
   padding-bottom: 10px;
 }
 
-.work-content {
-  scroll-padding-top: 180px;
+html {
+  scroll-padding-top: 200px;
+}
+
+.work-item {
+  background-color: #fff6ef;
+  padding: 20px;
+  border-radius: 10px;
 }
