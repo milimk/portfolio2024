@@ -27,7 +27,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="body-text work-content">
+  <body class="body-text">
     <nav
       class="navbar navbar-expand-lg fixed-top nav-underline"
       style="background-color: #ffefe4"
@@ -66,34 +66,54 @@
           <div class="col-12">
             <span class="dev-text-small"> [Coding Work] </span>
             <span class="work-menu-item"
-              ><a href="#react-dictionary">React - Dictionary</a></span
-            >
-            <span class="work-menu-item"><a href="#">React - Weather</a></span>
-            <span class="work-menu-item"
-              ><a href="#">Responsive - Travel</a></span
+              ><a href="#react-dictionary" class="work-menu-link"
+                >React-Dictionary</a
+              ></span
             >
             <span class="work-menu-item"
-              ><a href="#">AI - Poem Generator</a></span
+              ><a href="#react-weather" class="work-menu-link"
+                >React-Weather</a
+              ></span
             >
-            <span class="work-menu-item"><a href="#">JS - World Clock</a></span>
-            <span class="work-menu-item"><a href="#">JS - Weather</a></span>
+            <span class="work-menu-item"
+              ><a href="#" class="work-menu-link">Responsive-Travel</a></span
+            >
+            <span class="work-menu-item"
+              ><a href="#" class="work-menu-link">AI-Poem Generator</a></span
+            >
+            <span class="work-menu-item"
+              ><a href="#" class="work-menu-link">JS-World Clock</a></span
+            >
+            <span class="work-menu-item"
+              ><a href="#" class="work-menu-link">JS-Weather</a></span
+            >
           </div>
         </div>
         <div class="row work-menu-container">
           <div class="col-12">
             <span class="designer-text-small"> Design Work </span>
             <span class="work-menu-item"
-              ><a href="#braintest">BrainTest E-Health</a></span
+              ><a href="#braintest" class="work-menu-link"
+                >BrainTest E-Health</a
+              ></span
             >
             <span class="work-menu-item"
-              ><a href="#">Mini-Me Kids E-Learning</a></span
-            >
-            <span class="work-menu-item"><a href="#">Internal Tools</a></span>
-            <span class="work-menu-item"
-              ><a href="#">Jelly Splash - Mobile Game</a></span
+              ><a href="#minime" class="work-menu-link"
+                >Mini-Me Kids E-Learning</a
+              ></span
             >
             <span class="work-menu-item"
-              ><a href="#">Company of Heroes 2 - PC Game</a></span
+              ><a href="#" class="work-menu-link">Internal Tools</a></span
+            >
+            <span class="work-menu-item"
+              ><a href="#" class="work-menu-link"
+                >Jelly Splash Mobile Game</a
+              ></span
+            >
+            <span class="work-menu-item"
+              ><a href="#" class="work-menu-link"
+                >Company of Heroes 2 PC Game</a
+              ></span
             >
           </div>
         </div>
@@ -104,36 +124,112 @@
       My <span class="h2-text-small"> highlighted</span> work
     </h2>
 
-    <div class="container pt-5">
-      <div class="row">
-        <div class="col p-3 work-content">
-          <h3 class="dev-text-work text-center">[Coding Work]</h3>
-          <div class="row work-item">
-            <div class="col-3 work-item-pic"></div>
-            <div class="col-9 work-item-text">
-              <h5 id="react-dictionary">React Dictionary App</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                id vestibulum magna. In imperdiet, justo at commodo efficitur,
-                eros turpis dapibus turpis, a malesuada massa justo eu nisl.
-                Proin fringilla nulla quis maximus consequat. Nam euismod, mi
-                sed laoreet gravida, quam velit pellentesque odio, in venenatis
-                dolor massa a est. Duis nisl nunc, dictum ut purus ut, posuere
-                imperdiet dolor. Vestibulum bibendum lacus in velit efficitur,
-                sed euismod magna venenatis. In vitae libero ac nisi venenatis
-                imperdiet.
-              </p>
-            </div>
-          </div>
+    <div class="container pt-4 work-container">
+      <h3 class="dev-text-work text-center pt-3">[Coding Work]</h3>
 
-          <h3 class="designer-text-work text-center">Design Work</h3>
-          <p id="braintest">BrainTest</p>
-          <p>CONTENT</p>
-          <p>CONTENT</p>
-          <p>CONTENT</p>
-          <p>CONTENT</p>
-          <p>CONTENT</p>
-          <p>CONTENT</p>
+      <!-- Each work item -->
+      <div class="row work-item-container">
+        <div class="col-md-3">
+          <a href="image/dictionary.png" target="_blank" id="react-dictionary">
+            <img
+              src="image/dictionary.png"
+              alt="React Dictionary App"
+              class="work-item-pic"
+            />
+          </a>
+        </div>
+        <div class="col-md-9 work-item-text">
+          <h5>React Dictionary App</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id
+            vestibulum magna. In imperdiet, justo at commodo efficitur, eros
+            turpis dapibus turpis, a malesuada massa justo eu nisl. Proin
+            fringilla nulla quis maximus consequat. Nam euismod, mi sed laoreet
+            gravida, quam velit pellentesque odio, in venenatis dolor massa a
+            est. Duis nisl nunc, dictum ut purus ut, posuere imperdiet dolor.
+            Vestibulum bibendum lacus in velit efficitur, sed euismod magna
+            venenatis. In vitae libero ac nisi venenatis imperdiet.
+          </p>
+        </div>
+      </div>
+
+      <!-- Each work item -->
+      <div class="row work-item-container">
+        <div class="col-md-3">
+          <a href="image/weather-react.png" target="_blank" id="react-weather">
+            <img
+              src="image/weather-react.png"
+              alt="React Weather App"
+              class="work-item-pic"
+            />
+          </a>
+        </div>
+        <div class="col-md-9 work-item-text">
+          <h5>React Weather App</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id
+            vestibulum magna. In imperdiet, justo at commodo efficitur, eros
+            turpis dapibus turpis, a malesuada massa justo eu nisl. Proin
+            fringilla nulla quis maximus consequat. Nam euismod, mi sed laoreet
+            gravida, quam velit pellentesque odio, in venenatis dolor massa a
+            est. Duis nisl nunc, dictum ut purus ut, posuere imperdiet dolor.
+            Vestibulum bibendum lacus in velit efficitur, sed euismod magna
+            venenatis. In vitae libero ac nisi venenatis imperdiet.
+          </p>
+        </div>
+      </div>
+
+      <h3 class="designer-text-work text-center">Design Work</h3>
+
+      <!-- Each work item -->
+      <div class="row work-item-container">
+        <div class="col-md-3">
+          <a href="image/braintest.png" target="_blank" id="braintest">
+            <img
+              src="image/braintest.png"
+              alt="BrainTest E-Health App"
+              class="work-item-pic"
+            />
+          </a>
+        </div>
+        <div class="col-md-9 work-item-text">
+          <h5>BrainTest E-Health App</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id
+            vestibulum magna. In imperdiet, justo at commodo efficitur, eros
+            turpis dapibus turpis, a malesuada massa justo eu nisl. Proin
+            fringilla nulla quis maximus consequat. Nam euismod, mi sed laoreet
+            gravida, quam velit pellentesque odio, in venenatis dolor massa a
+            est. Duis nisl nunc, dictum ut purus ut, posuere imperdiet dolor.
+            Vestibulum bibendum lacus in velit efficitur, sed euismod magna
+            venenatis. In vitae libero ac nisi venenatis imperdiet.
+          </p>
+        </div>
+      </div>
+
+      <!-- Each work item -->
+      <div class="row work-item-container">
+        <div class="col-md-3">
+          <a href="image/minime.png" target="_blank" id="minime">
+            <img
+              src="image/minime.png"
+              alt="Mini-Me Kids E-Learning App"
+              class="work-item-pic"
+            />
+          </a>
+        </div>
+        <div class="col-md-9 work-item-text">
+          <h5>Mini-Me Kids E-Learning App</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id
+            vestibulum magna. In imperdiet, justo at commodo efficitur, eros
+            turpis dapibus turpis, a malesuada massa justo eu nisl. Proin
+            fringilla nulla quis maximus consequat. Nam euismod, mi sed laoreet
+            gravida, quam velit pellentesque odio, in venenatis dolor massa a
+            est. Duis nisl nunc, dictum ut purus ut, posuere imperdiet dolor.
+            Vestibulum bibendum lacus in velit efficitur, sed euismod magna
+            venenatis. In vitae libero ac nisi venenatis imperdiet.
+          </p>
         </div>
       </div>
     </div>
