@@ -130,6 +130,25 @@ p {
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
 
+.resume-btn {
+  font-weight: 600;
+  color: #33302e;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #ffefe4;
+  border-radius: 10px;
+  background-color: #ffefe4;
+  width: 100%;
+  font-size: 15px;
+  margin: 0 auto;
+  display: block;
+}
+
+.resume-btn:hover {
+  color: #33302e;
+  background-color: #ffcdab;
+}
+
 footer {
   background-color: var(--secondary-color);
   text-align: center;
