@@ -323,3 +323,7 @@ html {
   text-decoration: underline;
   text-underline-offset: 10px;
 }
+
+.smallWorkTitle {
+  font-size: 20px;
+}
