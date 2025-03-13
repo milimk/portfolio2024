@@ -327,3 +327,16 @@ html {
 .smallWorkTitle {
   font-size: 20px;
 }
+
+.work-example {
+  font-weight: 600;
+  color: #33302e;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #bababa;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 15px;
+  margin: 0 auto;
+  display: block;
+}
