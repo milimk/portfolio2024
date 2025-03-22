@@ -340,3 +340,7 @@ html {
   margin: 0 auto;
   display: block;
 }
+
+.work-example:hover {
+  background-color: #eeeeee;
+}
