@@ -19,6 +19,10 @@
     margin: 0 auto;
     margin-bottom: 30px;
   }
+  .work-category {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -45,6 +49,10 @@
   html {
     scroll-padding-top: 250px;
   }
+  .work-category {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -70,9 +78,29 @@
   .body-text .designer-info-box {
     padding-bottom: 40px;
   }
+  .work-category {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .work-category-left {
+    margin-right: 15px;
+  }
+  .work-category-right {
+    margin-left: 15px;
+  }
 }
 
 @media (min-width: 993px) {
+  .work-category {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .work-category-left {
+    margin-right: 15px;
+  }
+  .work-category-right {
+    margin-left: 15px;
+  }
 }
 
 :root {
@@ -226,6 +254,62 @@ footer a:hover {
 .dev-text-small {
   font-family: "Source Code Pro", monospace;
   font-size: 17px;
+}
+
+.work-category-link-business {
+  font-family: "Charm", cursive;
+  text-decoration: none;
+  font-weight: 1000;
+  font-style: bold;
+  font-size: 37px;
+  color: #33302e;
+}
+
+.work-category-link-business:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.work-category-link-tool {
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 35px;
+  color: #33302e;
+}
+
+.work-category-link-tool:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.work-category-link-game {
+  font-family: "DynaPuff", system-ui;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 35px;
+  color: #33302e;
+}
+
+.work-category-link-game:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.work-category-link-code {
+  font-family: "Source Code Pro", monospace;
+  text-decoration: none;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 35px;
+  color: #33302e;
+}
+
+.work-category-link-code:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
 }
 
 .about a {

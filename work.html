@@ -26,6 +26,10 @@
       href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=DynaPuff:wght@400..700&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="body-text">
     <nav
@@ -53,31 +57,106 @@
             <a class="nav-link" href="index.html">Home </a>
             <a class="nav-link" href="about.html">About Me</a>
             <a class="nav-link active" aria-current="page" href="work.html"
-              >My Work</a
+              >Portfolio</a
             >
           </div>
         </div>
       </div>
     </nav>
 
-    <h2 class="h2-text mt-5 pt-5 px-3">
-      My
-      <small class="smallWorkTitle">highlighted</small>
-      work
-    </h2>
+    <h2 class="h2-text mt-5 pt-5 px-3">Portfolio</h2>
 
-    <div class="container pt-4 pb-4 work-container">
-      <div class="row pt-5">
-        <div class="col-md-6 p-5 border rounded-2">
-          <h3 class="designer-text">
-            <a href="work-design.html" class="work-link">Design Work</a>
-          </h3>
+    <div class="container pt-5 pb-4 work-container">
+      <div class="row text-center">
+        <div
+          class="col-md p-5 border-3 rounded-2 work-category work-category-left"
+          style="
+            background-image: url(image/b2b-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.8);
+            background-blend-mode: lighten;
+          "
+        >
+          <a href="work-b2b.html" class="work-category-link-business">
+            Business-to-Business (B2B) Work</a
+          >
         </div>
-
-        <div class="col-md-6 p-5 border rounded-2">
-          <h3 class="dev-text text-center">
-            <a href="work-code.html" class="work-link">[Coding Work]</a>
-          </h3>
+        <div
+          class="col-md p-5 border rounded-2 work-category work-category-right"
+          style="
+            background-image: url(image/b2c-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.6);
+            background-blend-mode: lighten;
+          "
+        >
+          <a href="work-b2c.html" class="work-category-link-business"
+            >Business-to-Consumer (B2C) Work</a
+          >
+        </div>
+      </div>
+      <div class="row text-center">
+        <div
+          class="col-md-12 p-5 border rounded-2 work-category"
+          style="
+            background-image: url(image/tool-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.6);
+            background-blend-mode: lighten;
+          "
+        >
+          <a href="work-internal.html" class="work-category-link-tool">
+            Internal Tools</a
+          >
+        </div>
+      </div>
+      <div class="row text-center">
+        <div
+          class="col-md p-5 border rounded-2 work-category work-category-left"
+          style="
+            background-image: url(image/m-game-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.7);
+            background-blend-mode: lighten;
+          "
+        >
+          <a href="work-mobile-games.html" class="work-category-link-game">
+            Mobile / Tablet Games</a
+          >
+        </div>
+        <div
+          class="col-md p-5 border rounded-2 work-category work-category-right"
+          style="
+            background-image: url(image/p-game-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.7);
+            background-blend-mode: lighten;
+          "
+        >
+          <a href="work-pc-games.html" class="work-category-link-game">
+            PC / Console Games</a
+          >
+        </div>
+      </div>
+      <div class="row text-center">
+        <div
+          class="col-md-12 p-5 border rounded-2 work-category"
+          style="
+            background-image: url(image/code-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.8);
+            background-blend-mode: lighten;
+          "
+        >
+          <a href="work-code.html" class="work-category-link-code"
+            >Coding Bootcamp Projects</a
+          >
         </div>
       </div>
     </div>
