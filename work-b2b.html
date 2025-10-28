@@ -8,8 +8,10 @@
       name="description"
       content="Milim Kim-Sinoy is a UX Designer and a Product Manager based in Canada."
     />
-    <title>Milim Kim-Sinoy - UX Designer and a Product Manager in Canada</title>
+    <title>Milim Kim-Sinoy | UX / Product Designer </title>
+    <link rel="icon" type="image/x-icon" href="image/favicon-mk.ico">
     <link rel="stylesheet" href="src/style.css" />
+     <script src="src/protected.js" defer></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,14 +29,16 @@
       href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      body { display: none; }
+    </style>
   </head>
   <body class="body-text">
-    <nav
-      class="navbar navbar-expand-lg fixed-top nav-underline"
-      style="background-color: #ffefe4"
-    >
+    <nav class="navbar navbar-expand-lg fixed-top nav-underline">
       <div class="container">
-        <a class="navbar-brand" href="index.html">MiliM</a>
+        <a class="navbar-brand" href="index.html">
+          <img class="navbar-logo-img" src="image/logo-mk.png" alt="Milim Kim-Sinoy Logo">
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -52,200 +56,123 @@
         >
           <div class="navbar-nav">
             <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About Me</a>
-            <a class="nav-link" href="work.html">Portfolio</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="work.html">My Work</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <h2 class="h2-text mt-5 pt-5 px-3">B2B Work</h2>
+    <h2 class="h2-text mt-5 pt-5 px-3">BrainTest Clinical (B2B, Healthcare App)</h2>
 
-    <div class="container pt-4 work-container">
-      <div class="row">
-        <div class="col pb-3">
-          <a href="work.html" class="back-button"
-            ><img src="image/backBtn.png" width="17px" /> &nbsp; Back to My
-            Work</a
-          >
-        </div>
-      </div>
+    <div class="container pt-4 work-container" id="protected-content">
+      
       <div class="row">
         <div class="col pt-5">
-          <h4>BrainTest Clinical App: B2B Collaboration with Universities</h4>
-          <br />
+          <p><img src="image/bt-b2b-preview-hero.png" alt="BrainTest Clinical Hero" class="img-work-hero"></p>
+          <h4>Overview</h4>
           <p>
-            Working on the BrainTest Clinical App gave me the chance to directly
-            collaborate with multiple academic institutions and research groups
-            across North America. These partnerships were centered around
-            adapting the app to fit the distinct protocols of each cognitive
-            research study. This meant customizing user flows, creating new
-            modules, and modifying backend settings to support everything from
-            different test types to tailored data output formats.
+            BrainTest Clinical is a B2B web platform that enables research teams and healthcare institutions to conduct and manage cognitive studies. I led the UX redesign to make it scalable, flexible, and easy to use for professionals with varying technical skills.
           </p>
-
-          <p>
-            <strong
-              >Due to NDA restrictions, a more detailed breakdown of the process
-              and additional visuals are available upon request.</strong
-            >
-          </p>
-
           <br />
+          <h4>Challenge</h4>
+          <p>
+            The existing system was originally built for consumers, not researchers. Each new client required manual setup and custom workarounds, which slowed growth and increased support needs.
+          </p>
+          <br />
+          <h4>My Role</h4>
+          <p>
+            As Product Designer, I worked closely with the Product Manager and multiple U.S. research groups to translate complex study requirements into simple, efficient workflows.
+          </p>
+          <p><strong>Key Responsibilities:</strong></p>
+          <p>
+            <ul>
+              <li>Conducted client interviews and mapped diverse workflows</li>
+              <li>Created wireframes, user flows, and interactive prototypes</li>
+              <li>Defined modular components for scalable study setup</li>
+              <li>Collaborated with developers to ensure usability and consistency</li>
+            </ul>
+          </p>
+          <br/>
 
           <div>
             <div class="row">
               <div class="col-md-4">
                 <img
-                  src="image/braintest-clinical.png"
+                  src="image/bt-b2b-process1.png"
                   alt="BrainTest Clinical App"
                   class="work-item-pic"
                 />
-              </div>
-              <div class="col-md-8">
-                <h5>Goals</h5>
-                <ul>
-                  <li>
-                    Build a clinically viable cognitive assessment tool that
-                    could be adapted by research institutions.
-                  </li>
-                  <li>
-                    Ensure the app could support varying research goals through
-                    modular customization and backend flexibility.
-                  </li>
-                </ul>
-
-                <br />
-                <h5>Challenges</h5>
-                <ul>
-                  <li>
-                    Navigating the varied technical and scientific requirements
-                    across multiple research partners.
-                  </li>
-                  <li>
-                    Developing infrastructure that allowed for study-specific
-                    adjustments without compromising core stability.
-                  </li>
-                  <li>
-                    Supporting seamless integration with existing university
-                    workflows and tools.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <br />
-          <h5>Process</h5>
-          <ol>
-            <li>
-              Partnering with Academic Institutions:
-              <ul>
-                <li>
-                  Worked closely with institutions like The Ohio State
-                  University to understand specific study protocols and research
-                  questions.
-                </li>
-                <li>
-                  Conducted discovery meetings and interviews with clinical
-                  researchers and neuropsychologists to gather key requirements.
-                </li>
-              </ul>
-            </li>
-            <li>
-              App Customization:
-              <ul>
-                <li>
-                  Implemented modular features such as adjustable test
-                  selection, custom session flows, and variable frequency of
-                  assessments.
-                </li>
-                <li>
-                  Worked with backend developers to enable per-institution
-                  settings that allowed researchers to define access levels,
-                  data formats, and reporting styles.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Technical Onboarding and Support:
-              <ul>
-                <li>
-                  Developed onboarding documentation and walkthroughs tailored
-                  to each institution's tech literacy and infrastructure.
-                </li>
-                <li>
-                  Provided hands-on support during pilot testing phases to
-                  ensure smooth rollout and early troubleshooting.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Iterative Collaboration:
-              <ul>
-                <li>
-                  Integrated continuous feedback from both university
-                  researchers and participants to refine the UX and feature set.
-                </li>
-                <li>
-                  Added features like time-stamped session logs and
-                  institutional newsletters based on feedback loops.
-                </li>
-              </ul>
-            </li>
-          </ol>
-
-          <br />
-
-          <div>
-            <div class="row">
-              <div class="col-md-8">
-                <h5>Solution</h5>
-                <ul>
-                  <li>
-                    Delivered a modular and research-friendly platform that
-                    could adapt to the needs of cognitive health studies.
-                  </li>
-                  <li>
-                    Integrated advanced backend settings for each institution to
-                    independently manage their configuration and data access.
-                  </li>
-                  <li>
-                    Strengthened institutional trust by demonstrating
-                    responsiveness and precision in feature customization.
-                  </li>
-                </ul>
-
-                <br />
-                <h5>Impact</h5>
-                <ul>
-                  <li>
-                    Played a critical role in enabling real-world clinical
-                    studies, supporting research on early-stage cognitive
-                    decline and Alzheimer’s.
-                  </li>
-                  <li>
-                    Streamlined the data collection process for researchers,
-                    improving data quality and participant retention.
-                  </li>
-                  <li>
-                    Set a precedent for future collaborations between digital
-                    health tools and academia by providing a scalable yet
-                    tailored solution.
-                  </li>
-                </ul>
               </div>
               <div class="col-md-4">
                 <img
-                  src="image/braintest-clinical2.png"
+                  src="image/bt-b2b-process2.png"
                   alt="BrainTest Clinical App"
                   class="work-item-pic"
-                />
+                /> 
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="image/bt-b2b-process3.png"
+                  alt="BrainTest Clinical App"
+                  class="work-item-pic"
+                /> 
               </div>
             </div>
           </div>
 
           <br />
+
+          <h4>Design Highlights</h4>
+          <p>
+            <ul>
+              <li>Unified Dashboard: Centralized study setup, participant tracking, and data access.</li>
+              <li>Custom Templates: Allowed quick configuration for different research needs.</li>
+              <li>Simplified Onboarding: Reduced setup steps by 40% through guided UI.</li>
+            </ul>
+          </p>
+
+          <br />
+          <h4>Results</h4>
+          <p>
+            <ul>
+              <li>40% faster client onboarding through simplified setup flow</li>
+              <li>35% fewer support tickets within three months post-launch</li>
+              <li>3 new research partnerships established within one quarter</li>
+              <li>Increased platform adoption by 50% across existing clients</li>
+              <li>Improved usability score (SUS 68 → 85) during validation testing</li>
+            </ul>
+          </p>
+          <br/>
+
+          <div>
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  src="image/bt-b2b-process4.png"
+                  alt="BrainTest Clinical App"
+                  class="work-item-pic"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="image/bt-b2b-process5.png"
+                  alt="BrainTest Clinical App"
+                  class="work-item-pic"
+                /> 
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <h4>Reflection</h4>
+          <p>
+            This project deepened my ability to balance business goals, technical limitations, and user needs in the healthcare domain — creating an experience that’s functional, compliant, and human.
+          </p>
+
+          </div>
+
           <p>
             <a
               href="https://wexnermedical.osu.edu/departments/innovations/neuronews/braintest"
@@ -255,71 +182,53 @@
               BrainTest Clinical
             </a>
           </p>
+
+          <div class="row pt-5">
+             <div class="col pb-3">
+               <a href="work.html" class="back-button"
+               ><img src="image/backBtn.png" width="17px" /> &nbsp; Back to My
+               Work</a
+               >
+             </div>
+            </div>
+
         </div>
       </div>
     </div>
 
     <footer>
       <div class="container px-5 pb-3">
-        <div class="row">
-          <div class="col-12 footer-title">Connect with me!</div>
-        </div>
-        <div class="row">
-          <div class="col-4">
+        <div class="row centered">
+          <div class="col-6 order-1 order-md-1">
+            © 2025 Milim Kim-Sinoy <br/>
+            This website was coded by me and is 
+            <a href="https://github.com/milimk/portfolio2024" target="_blank">
+              <strong>open-sourced</strong> 
+            </a>
+          </div>
+           <div class="col-6 order-2 order-md-2">
             <a href="mailto:milimkim@gmail.com" target="_blank">
               <img
-                src="image/icons8-email-48.png"
+                src="image/icon-email.png"
                 alt="Email icon"
-                onmouseover="this.src='image/icons8-email-48-hover.png';"
-                onmouseout="this.src='image/icons8-email-48.png';"
               />
-            </a>
-          </div>
-          <div class="col-4">
+            </a> 
             <a href="https://www.linkedin.com/in/milimkim/" target="_blank">
               <img
-                src="image/icons8-linked-in-48.png"
+                src="image/icon-linkedin.png"
                 alt="Linked In icon"
-                onmouseover="this.src='image/icons8-linked-in-48-hover.png';"
-                onmouseout="this.src='image/icons8-linked-in-48.png';"
               />
-            </a>
-          </div>
-          <div class="col-4">
+            </a> 
             <a href="https://github.com/milimk" target="_blank">
               <img
-                src="image/icons8-github-48.png"
+                src="image/icon-github.png"
                 alt="GitHub icon"
-                onmouseover="this.src='image/icons8-github-48-hover.png';"
-                onmouseout="this.src='image/icons8-github-48.png';"
               />
             </a>
           </div>
-        </div>
-        <div class="row pt-1">
-          <div class="col-4 d-flex justify-content-center">
-            <a href="mailto:milimkim@gmail.com" target="_blank"
-              >milimkim@gmail.com</a
-            >
-          </div>
-          <div class="col-4">
-            <a href="https://www.linkedin.com/in/milimkim/" target="_blank"
-              >LinkedIn</a
-            >
-          </div>
-          <div class="col-4">
-            <a href="https://github.com/milimk" target="_blank">GitHub</a>
-          </div>
-        </div>
-        <div class="row pt-5">
-          <div class="col-12 footer-credit">
-            This site was coded me, MiliM, and its
-            <a href="https://github.com/milimk/portfolio2024" target="_blank"
-              >open-sourced</a
-            >
-          </div>
-        </div>
+        </div> 
       </div>
     </footer>
+    
   </body>
 </html>
